@@ -39,9 +39,9 @@ const Test = () => {
     }
 
     if (schemas.length === 0) {
-      alert('Please select at least one schema to save the category.');
+      alert('Please select at least one schema to save category.');
       return;
-    }
+    } 
 
     const categoryData = {
       category_name: name,
