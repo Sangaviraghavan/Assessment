@@ -67,7 +67,7 @@ const Test = () => {
 
   return (
     <>
-      {loader && <div className='loader'>loading .....</div>}
+      {loader && <div className='loader'>Loading......</div>}
       {!loader && <button className="btn btn-outline-success" onClick={handleShow}>
         Save category
       </button>}
